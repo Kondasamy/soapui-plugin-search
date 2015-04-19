@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:soapui-actions xmlns:tns="http://eviware.com/soapui/config">
+
+    <tns:action id="ProjectSearchAction" actionClass="com.kondasamy.soapui.plugins.searchProjectGroovy.ProjectSearchAction"/>
+
+    <tns:actionGroup id="EnabledWsdlProjectActions">
+        <tns:actionMapping actionId="ProjectSearchAction"/>
+    </tns:actionGroup>
+
+    <tns:actionGroup id="WsdlProjectActions">
+        <tns:actionMapping actionId="ProjectSearchAction"/>
+    </tns:actionGroup>
+
+    <tns:actionGroup id="ProjectActions">
+        <tns:actionMapping actionId="ProjectSearchAction"/>
+    </tns:actionGroup>
+
+</tns:soapui-actions>
